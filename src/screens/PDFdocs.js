@@ -14,7 +14,7 @@ const PDFDocument = ({ studentData }) => {
   return (
     <Document>
       <Page size="A4" style={{ flexDirection: "row", backgroundColor: "#fff" }}>
-        <View style={{ margin: 10, padding: 10, flexGrow: 1 }}>
+        <View style={{ margin: 10, padding: 11, flexGrow: 1 }}>
           <Text
             style={{
               fontSize: 18,
